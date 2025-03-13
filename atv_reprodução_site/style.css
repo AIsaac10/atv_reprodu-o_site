@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+main {
+    border-top: 34px solid #5dd8ff;
+    display: flex;
+}
+header {
+    background-color: #5dd8ff;
+}
+body {
+    background-color: #e1ff8d;
+}
+#container1 {
+    display: flex;
+    flex-direction: column;
+}
+#section1 {
+    display: flex;
+}
