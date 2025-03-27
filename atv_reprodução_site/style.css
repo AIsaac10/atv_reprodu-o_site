@@ -5,6 +5,11 @@
 main {
     border-top: 34px solid #5dd8ff;
     display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #e1ff8d;
 }
 
 #header {
@@ -18,9 +23,7 @@ main {
 
 }
 
-body {
-    background-color: #e1ff8d;
-}
+
 
 #container1 {
     display: flex;
@@ -67,6 +70,11 @@ font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+#img_camp1 {
+    height: 100vh;
+}
+
 .botão {
     padding: 0;
     border: 0;
@@ -76,8 +84,4 @@ font-weight: 400;
 }
 .botão:hover {
     cursor: pointer;
-}
-
-#img_camp1 {
-    height: 100vh;
 }
